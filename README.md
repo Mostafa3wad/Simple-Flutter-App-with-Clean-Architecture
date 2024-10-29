@@ -46,12 +46,15 @@ Each layer is fully isolated, making it easier to test and modify without affect
 
 Here's how the main folders in this project are organized:
 
+├── core\
 ├── lib\
-│   ├── data           
-│   ├── domain         
-│   ├── presentation   
-│   ├── core           
-│   └── main.dart      
+│   ├── features\
+│   │   ├── posts\
+│   │   │   ├── data\
+│   │   │   ├── domain\
+│   │   │   └── presentation\
+│   └── main.dart
+    
     
 ---
 
